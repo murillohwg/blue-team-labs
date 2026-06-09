@@ -311,7 +311,7 @@ The script was used to process payloads captured in Wireshark HTTP streams, conv
 
 ---
 
-## 8. Lessons Learned & Recommendations
+## 8. Concepts & Recommendations
 
 ### Vulnerability Root Causes
 
