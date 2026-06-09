@@ -1,5 +1,15 @@
 # Incident Response Report
 ## Web Application Attack — SQL Injection to Web Shell Deployment
+
+| Field              | Details                          |
+|--------------------|----------------------------------|
+| **Severity**       | Critical                         |
+| **Status**         | Closed                           |
+| **Analyst**        | Murillo H. W. G.                 |
+| **Date**           | 2026-06-09                       |
+| **Platform**       | CyberDefenders                   |
+| **Classification** | TLP:WHITE                        |
+
 ---
 
 ## Table of Contents
@@ -322,7 +332,7 @@ The script was used to process payloads captured in Wireshark HTTP streams, conv
 | Unrestricted file upload          | Web shell deployment via admin panel |
 | Exposed admin panel               | `/admin/` accessible without rate limiting or MFA |
 
-### Concepts
+### Remediation Recommendations
 
 **1. SQL Injection — Immediate**
 - Replace dynamic SQL queries with **parameterized queries / prepared statements**
