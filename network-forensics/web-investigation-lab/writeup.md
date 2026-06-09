@@ -322,7 +322,7 @@ The script was used to process payloads captured in Wireshark HTTP streams, conv
 | Unrestricted file upload          | Web shell deployment via admin panel |
 | Exposed admin panel               | `/admin/` accessible without rate limiting or MFA |
 
-### Remediation Recommendations
+### Concepts
 
 **1. SQL Injection — Immediate**
 - Replace dynamic SQL queries with **parameterized queries / prepared statements**
