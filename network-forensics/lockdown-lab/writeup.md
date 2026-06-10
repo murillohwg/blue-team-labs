@@ -41,9 +41,9 @@ TechNova Systems' public-facing IIS server was compromised through a multi-stage
 
 | Item             | Value                                                                 |
 |------------------|-----------------------------------------------------------------------|
-| Evidence File    | `capture.pcap`, `memory.dmp`, `malware_sample.exe`                   |
-| Analysis Tool(s) | Wireshark, Volatility, PEiD / DIE (Detect-It-Easy), VirusTotal       |
-| Target           | Public-facing IIS web server (Windows), cloud-hosted by TechNova     |
+| Evidence File    | `capture.pcap`, `memory.dmp`, `malware_sample.exe`                    |
+| Analysis Tool(s) | Wireshark, Volatility, VirusTotal                                     |
+| Target           | Public-facing IIS web server (Windows), cloud-hosted by TechNova      |
 | Analysis Type    | Post-incident forensic analysis                                       |
 
 ### Methodology
@@ -210,7 +210,7 @@ Static analysis of the recovered binary revealed it was packed with **UPX** to h
 
 **Evidence:**
 
-> `9-detected-malware-packer.png` — DIE/PEiD output confirming UPX packing on the malware sample.
+> `9-detected-malware-packer.png` — strings output confirming UPX packing on the malware sample.
 
 ![UPX packer detected](assets/9-detected-malware-packer.png)
 
