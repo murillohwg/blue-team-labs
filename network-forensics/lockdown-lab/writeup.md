@@ -272,10 +272,7 @@ vol -f memory.dmp windows.pslist
 
 # Identify processes and their full executable paths
 vol -f memory.dmp windows.cmdline
-vol -f memory.dmp windows.dlllist --pid 4332
 
-# Search for files in suspicious paths
-vol -f memory.dmp windows.filescan | grep -i startup
 ```
 
 ### 7.2 VirusTotal — Hash Submission
