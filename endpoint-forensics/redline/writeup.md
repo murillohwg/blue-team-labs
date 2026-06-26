@@ -124,7 +124,7 @@ Virtual Address Descriptor (VAD) analysis was performed to inspect memory protec
 
 | Field             | Value                  |
 | ----------------- | ---------------------- |
-| Memory Protection | PAGE_EXECUTE_READWRITE |
+| Memory Protection | PAGE_EXECUTE_WRITECOPY |
 
 **Evidence**
 
@@ -157,7 +157,7 @@ Network artifact analysis identified outbound communication between the compromi
 
 | Field       | Value           |
 | ----------- | --------------- |
-| Attacker IP | `<ATTACKER_IP>` |
+| Attacker IP | `<77.91.124.20>` |
 
 **Evidence**
 
@@ -173,7 +173,7 @@ Investigation of network artifacts revealed the complete PHP resource requested 
 
 | Field        | Value             |
 | ------------ | ----------------- |
-| PHP Resource | `<FULL_PHP_PATH>` |
+| PHP Resource | `<http://77.91.124.20/store/games/index.php>` |
 
 **Evidence**
 
@@ -189,7 +189,7 @@ The full execution path of the malware was recovered from memory artifacts.
 
 | Field        | Value                 |
 | ------------ | --------------------- |
-| Malware Path | `<FULL_MALWARE_PATH>` |
+| Malware Path | `<C:\Users\Tammam\AppData\Local\Temp\c3912af058\oneetx.exe>` |
 
 **Evidence**
 
